@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Makkah and Madinah non-Saudi ownership zones"
+abstract: >-
+  The 22 designated zones in which non-Saudis may buy property in Makkah (12) and Madinah (10),
+  with official boundaries from REGA's Saudi Properties portal, codes and names in English and
+  Arabic, areas, measured distances to the Grand Mosque and the Prophet's Mosque, eligible buyers
+  and permitted rights. Compiled by Zullfa.
+authors:
+  - name: "Zullfa"
+    website: "https://zullfa.com"
+    email: "hello@zullfa.com"
+license: CC-BY-4.0
+url: "https://zullfa.com/data/zones.geojson"
+repository-code: "https://github.com/zullfaHomes/makkah-madinah-ownership-zones"
+version: "2026.11.0"
+date-released: "2026-11-04"
+keywords:
+  - Makkah
+  - Madinah
+  - Saudi Arabia
+  - real estate
+  - foreign ownership
+  - REGA
+  - GeoJSON
+  - open data
