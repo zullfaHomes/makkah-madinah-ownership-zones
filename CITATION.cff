@@ -12,6 +12,7 @@ authors:
     website: "https://zullfa.com"
     email: "hello@zullfa.com"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.23934820
 url: "https://zullfa.com/data/zones.geojson"
 repository-code: "https://github.com/zullfaHomes/makkah-madinah-ownership-zones"
 version: "2026.11.0"

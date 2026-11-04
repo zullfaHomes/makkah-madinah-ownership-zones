@@ -1,5 +1,7 @@
 # Makkah and Madinah non-Saudi ownership zones
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23934820.svg)](https://doi.org/10.5281/zenodo.23934820)
+
 The 22 designated zones in which non-Saudis may buy property in Makkah (12 zones) and Madinah
 (10 zones), as reusable data. Each zone has its boundary, its official code and names in English
 and Arabic, its area, and three measured distances to the Grand Mosque or the Prophet's Mosque,
@@ -94,10 +96,10 @@ any earlier version can still be cited.
 
 ## Cite
 
-> Zullfa (2026). *Makkah and Madinah non-Saudi ownership zones* [Data set]. https://zullfa.com/data/zones.geojson
+> Zullfa (2026). *Makkah and Madinah non-Saudi ownership zones* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23934820
 
 GitHub's "Cite this repository" button gives this in other formats from [`CITATION.cff`](CITATION.cff).
-Each release is also archived with a DOI on Zenodo.
+Each release is archived on Zenodo. The DOI above, 10.5281/zenodo.23934820, always resolves to the latest version; version 2026.11.0 is 10.5281/zenodo.23934821.
 
 ## Not legal advice
 
