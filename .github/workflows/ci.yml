@@ -1,0 +1,20 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+concurrency: { group: "ci-${{ github.ref }}", cancel-in-progress: true }
+permissions: { contents: read }
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: GeoJSON parses and has features
+        run: python3 -c "import json; d=json.load(open('data/zones.geojson')); assert d['type']=='FeatureCollection' and d['features'], 'empty'; print(len(d['features']), 'zones')"
+      - name: CSV is rebuilt from the GeoJSON (no hand edits, no drift)
+        run: python3 scripts/build.py --offline && git diff --exit-code -- data/zones.csv
+      - name: Citation metadata parses
+        run: python3 -c "import json; json.load(open('.zenodo.json'))"
